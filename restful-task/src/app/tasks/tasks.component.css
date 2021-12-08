@@ -1,0 +1,52 @@
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 200 px;
+}
+.btnGet{
+    width:  250px;
+    margin: 20px;
+    padding: 20px;
+    background-color:  purple;
+    color: white;
+    font-size: 20px;;
+    border-radius: 20px;
+    width: 200 px;
+}
+
+.btnShow{
+    width:  250px;
+    margin: 20px;
+    padding: 20px;
+    background-color:  rgb(8, 133, 116);
+    color: white;
+    font-size: 20px;;
+    border: 1px solid rgb(8, 133, 116);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    width: 200 px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    width: 200 px;
+}
+

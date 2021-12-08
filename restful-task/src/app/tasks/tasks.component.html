@@ -1,0 +1,28 @@
+<div class="btnContainer">
+    <button (click) = "getAllTasksFromService()" class="btnGet">GET ALL TASKS</button>
+    <h3>Click on the button above so what you can see all tasks being displayed below</h3>
+
+    <div *ngFor = "let task of taskList">
+        <div class="tasks">
+            <form (submit)= "showTaskFromService($event)">
+                <div class="task">
+                    <div>
+                        {{task.title}}
+                    </div>
+                    <input type="hidden" value="{{task.title}}" id="title">
+                    <button type="submit" class="btnShow">
+                        Show 
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div >
+</div>
+
+<app-nestedtask [task] = "onetask"></app-nestedtask>
+
+
+
+
+
